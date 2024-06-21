@@ -1,0 +1,10 @@
+[
+       {
+              "isActive": "yes",
+              "isFolder": "no",
+              "name": "Repeat Last Comamnd",
+              "command": "",
+              "script": "",
+              "keys": "ctrl+r"
+       }
+]
