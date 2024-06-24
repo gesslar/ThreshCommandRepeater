@@ -235,6 +235,8 @@ local function parse_url(url)
         file = file,
         params = params
     }
+-- Uncomment the below if you also want to see the debugging output
+-- for the parsed URL
 --[[
     -- Debugging output
     debugc("Parsed URL:")
@@ -267,7 +269,6 @@ function Mupdate:registerEventHandlers()
     if newEvents["sysDownloadDone"] then
         registerNamedEventHandler(self.package_name, newEvents["sysDownloadDone"], "sysDownloadDone", function(event, path, size, response)
             if not self.in_progress then return end
-            self:Info("We are in progress")
             self:handleDownloadDone(event, path, size, response)
         end)
     end
@@ -275,7 +276,6 @@ function Mupdate:registerEventHandlers()
     if newEvents["sysDownloadError"] then
         registerNamedEventHandler(self.package_name, newEvents["sysDownloadError"], "sysDownloadError", function(event, err, path, actualurl)
             if not self.in_progress then return end
-            self:Info("We are in progress")
             self:handleDownloadError(event, err, path, actualurl)
         end)
     end
@@ -283,7 +283,6 @@ function Mupdate:registerEventHandlers()
     if newEvents["sysGetHttpDone"] then
         registerNamedEventHandler(self.package_name, newEvents["sysGetHttpDone"], "sysGetHttpDone", function(event, url, response)
             if not self.in_progress then return end
-            self:Info("We are in progress")
             self:handleHttpGet(event, url, response)
         end)
     end
@@ -291,7 +290,6 @@ function Mupdate:registerEventHandlers()
     if newEvents["sysGetHttpError"] then
         registerNamedEventHandler(self.package_name, newEvents["sysGetHttpError"], "sysGetHttpError", function(event, response, url)
             if not self.in_progress then return end
-            self:Info("We are in progress")
             self:handleHttpError(event, response, url)
         end)
     end
