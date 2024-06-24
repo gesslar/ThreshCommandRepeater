@@ -2,7 +2,7 @@
   "package": "ThreshCommandRepeater",
   "title": "Repeat the last command sent to the MUD with Ctrl-R (Cmd-R)",
   "description": "Threshold Command Repeater Package for Mudlet ",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "author": "Gesslar@Threshold",
   "icon": "griffon-right.jpg",
   "dependencies": "",
