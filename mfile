@@ -1,6 +1,6 @@
 {
   "package": "Repeater",
-  "title": "Repeat the last command sent to the MUD with Ctrl-R (Cmd-R)",
+  "title": "Repeat the last command sent to the MUD with Ctrl-R (Cmd-R).",
   "version": "2.0.0",
   "author": "gesslar",
   "icon": "repeat.png",
