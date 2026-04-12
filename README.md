@@ -1,6 +1,6 @@
 # Repeater
 
-Use `Ctlr-R` on Windows or Linux, or `Cmd-R` on a Mac to repeat the last
+Use `Ctrl-R` on Windows or Linux, or `Cmd-R` on a Mac to repeat the last
 command you sent to the game.
 
 ## License
