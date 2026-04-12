@@ -1,10 +1,10 @@
 [
-       {
-              "isActive": "yes",
-              "isFolder": "no",
-              "name": "Repeat Last Comamnd",
-              "command": "",
-              "script": "",
-              "keys": "ctrl+r"
-       }
+  {
+    "isActive": "yes",
+    "isFolder": "no",
+    "name": "Repeat Last Command",
+    "command": "",
+    "script": "",
+    "keys": "ctrl+r"
+  }
 ]
